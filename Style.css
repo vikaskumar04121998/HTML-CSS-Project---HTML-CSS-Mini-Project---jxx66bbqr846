@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+
+}
+
+header {
+    height: 600px;
+
+}
+
+.homeImage {
+    background-image: url("https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=886&q=80");
+    width: 100%;
+    /* background-size: cover; */
+    /* opacity: 0.6; */
+    background-size: 100% 100%;
+    /* height: 600px; */
+}
+
+.aboutImage {
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/6184630314a0322cfbbab650/Education--Multi-ethnic-friends-excitedly-hold-diplomas-after-college-graduation-/960x0.jpg?format=jpg&width=960");
+    width: 100%;
+    /* height: 600px; */
+    background-size: 100% 100%;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /* color:red; */
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 20px;
+    /* opacity: 1; */
+}
+
+nav ul li {
+    /* list-style: none; */
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+    
+}
+
+.headerData {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.butv{
+    font-weight:bold;
+}
+.headerTitle {
+    font-size: 30px;
+    backdrop-filter: blur(2px);
+    background-color: blue;
+}
+
+.headerDescription {
+    backdrop-filter: blur(20px);
+    font-size: 50px;
+
+}
+.text {
+    color: #000;
+}
+button {
+    transition-duration: 0.4s;
+    padding: 10px;
+    border: none;
+}
+
+
+button:hover {
+    background-color: rgb(230 225 185);
+    ;
+    /* Green */
+    color: balck;
+}
+
+.container {
+    display: flex;
+    /* border: 1px blue solid; */
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-container {
+    width: 70%;
+    margin-bottom: 20px;
+    /* border: 1px purple solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headTitle {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.headDescription {
+    color: #000;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    margin-top: 20px;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    width: 30%;
+    background-color: rgb(230 225 185);
+    border-radius: 5%;
+    margin-top: 20px;
+    text-align: center;
+    /* border:1px solid red;    */
+}
+
+.cardTitle {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.cardDescription {
+    color: rgb(7, 6, 6);
+    font-size: 20px;
+}
+
+.container2 {
+
+    display: flex;
+    /* border: 1px blue solid; */
+    flex-direction: row;
+    width: 80%;
+    margin-top: 40px;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+
+}
+
+.section {
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    /* padding-top: 20px; */
+    width: 40%;
+    height: 250px;
+    border-radius: 5%;
+    background-color: rgb(239, 220, 154);
+}
+
+.contactInfo {
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    margin: 10px 5px;
+    /* width: 88%; */
+}
+
+footer {
+    margin-top: 100px;
+}
